@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+lang_out=$(echo 'ru') 
+text_in=$(echo 'test')
+text_out="$(wget -U "Mozilla/5.0" \
+-qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=$lang_out&dt=t&q=$(echo $text_in| \
+sed "s/[\"'<>]//g")"| \
+sed "s/,,,0]],,.*//g" | \
+awk -F'"' '{print $2, $6}' \
+)"
+python3 python_script.py $text_in $text_out $lang_out
