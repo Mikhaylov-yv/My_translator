@@ -2,10 +2,15 @@ import sys
 import os.path
 
 cache_fill_name = 'cache.csv'
-
-text_in = sys.argv[1]
-text_out = sys.argv[2]
-lang_in = sys.argv[3]
+print(sys.argv)
+delimiter1 = sys.argv.index(';')
+print(delimiter1)
+text_in = ' '.join(sys.argv[1:delimiter1])
+delimiter2 = sys.argv.index(';',delimiter1+1)
+print(delimiter2)
+text_out = ' '.join(sys.argv[delimiter2+1:-4])
+print(text_in, '\n', text_out)
+lang_in = sys.argv[delimiter1+1]
 lang_out = sys.argv[-1]
 cache_fill_list = [text_in,text_out,lang_in,lang_out]
 
