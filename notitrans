@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 lang_out=$(echo 'ru') 
 delimiter=$(echo ';') 
-text_in=$(echo 'hi')
+text_in=$(echo 'hi youra')
 text_out="$(wget -U "Mozilla/5.0" \
 -qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=$lang_out&dt=t&q=$(echo $text_in| \
 sed "s/[\"'<>]//g")"| \
