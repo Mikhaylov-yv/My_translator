@@ -27,3 +27,4 @@ if os.path.exists(cache_fill_name):
 	print('Есть')
 	update_fill(cache_fill_name,cache_fill_list)
 else: f = open(cache_fill_name, 'w')
+print('test')
