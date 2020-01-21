@@ -76,3 +76,35 @@ The Python interpreter is easily extended,Интерпретатор Python ле
 The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C,Интерпретатор Python легко расширяется за счет новых функций и типов данных, реализованных на C или C (или других языках, вызываемых из C,ru,en
 The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C,Интерпретатор Python легко расширяется за счет новых функций и типов данных, реализованных на C или C (или других языках, вызываемых из C,ru,en
 The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C,Интерпретатор Python легко расширяется за счет новых функций и типов данных, реализованных на C или C (или других языках, вызываемых из C,ru,en
+The Python interpreter is easily extended,Интерпретатор Python легко расширяется,ru,en
+~/Programming/My_translator,~ / Программирование / My_translator,ru,en
+data,данные,ru,en
+notitrans,notitrans,ru,en
+structures,сооружения,ru,en
+translet,транслет,ru,en
+test,тестовое задание,ru,en
+Programming,,ru,en
+Programming,,ru,en
+text_out,text_out,ru,en
+delimiter,ограничитель,ru,en
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.,Интерпретатор Python легко расширяется за счет новых функций и типов данных, реализованных на C или C (или других языках, вызываемых из C). 21791a8d07c2303bc1a3f9824e6ec4be Python также подходит в качестве языка расширения для настраиваемых приложений.,ru,en
+tutorial,руководство,ru,en
+introduces,вводит,ru,en
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system.,Это руководство неофициально знакомит читателя с основными понятиями и особенностями языка и системы Python.,ru,en
+9. Classes,9. Классы,ru,en
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C,Интерпретатор Python легко расширяется за счет новых функций и типов данных, реализованных на C или C (или других языках, вызываемых из C,ru,en
+home,дом,ru,en
+home,дом,ru,en
+IndentationError: unindent does not match any outer indentation level,IndentationError: unindent не соответствует ни одному внешнему уровню отступа,ru,en
+Return zero-based index in the list of the first item whose value is equal to x. Raises a ValueError if there is no such item.,Вернуть нулевой индекс в списке первого элемента значение которого равно x. 21791a8d07c2303bc1a3f9824e6ec4be Вызывает ошибку ValueError если такого элемента нет.,ru,en
+Return zero-based index in the list of the first item whose value is equal to x. Raises a,Вернуть нулевой индекс в списке первого элемента значение которого равно x. 21791a8d07c2303bc1a3f9824e6ec4be Поднимает,ru,en
+ValueError,ValueError,ru,en
+Raises a ValueError if there,Вызывает ValueError если есть,ru,en
+is no such item,нет такого пункта,ru,en
+The optional arguments start and end are interpreted as in the slice notation and are used to limit the search to a particular subsequence of the list.,Необязательные аргументы start и end интерпретируются так же как в нотации слайса и используются для ограничения поиска определенной подпоследовательностью списка.,ru,en
+count,подсчитывать,ru,en
+sort,Сортировать,ru,en
+sort,Сортировать,ru,en
+reverse,задний ход,ru,en
+reverse,задний ход,ru,en
+pear,груша,ru,en

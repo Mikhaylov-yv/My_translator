@@ -1,9 +1,14 @@
 import sys
 import os.path
+import re
 
-cache_fill_name = 'cache.csv'
+cache_fill_name = '/home/mikhaylov_yv/Programming/My_translator/cache.csv'
 csv_delimiter = ','
 # print(sys.argv)
+for arg in range(len(sys.argv)):
+	reg = re.compile('[,]')
+	sys.argv[arg] = reg.sub('', str(sys.argv[arg]))
+
 delimiter1 = sys.argv.index(';')
 # print(delimiter1)
 text_in = ' '.join(sys.argv[1:delimiter1])

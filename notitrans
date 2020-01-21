@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 lang_out=$(echo 'ru') 
 delimiter=$(echo ';') 
-text_in=$(echo 'hi youra')
 text_in="$(xsel -o)" 
 text_wp="$(wget -U "Mozilla/5.0" \
 -qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=$lang_out&dt=t&q=$(echo $text_in| \
@@ -9,7 +8,6 @@ sed "s/[\"'<>]//g")"| \
 sed "s/,,,0]],,.*//g" | \
 awk -F'"' '{print $2, $6}' \
 )"
-text_out=$(python3 python_script.py $text_in $delimiter $lang_out $delimiter $text_wp)
-echo "$text_out" 
-# notify-send --icon=info "$text_out"
+text_out=$(python /home/mikhaylov_yv/Programming/My_translator/python_script.py \
+			$text_in $delimiter $lang_out $delimiter $text_wp)
 notify-send "$(echo $text_out| awk 'BEGIN{FS=";"}{print $1}')" "$(echo $text_out| awk 'BEGIN{FS=";"}{print $2}')"
