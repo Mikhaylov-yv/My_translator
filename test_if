@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+text_in="$(xsel -o)"
+echo $text_in
+if [ "$text_in" = "" ] 
+then
+	echo 'Работает'
+fi
+# if [ "a" = "a" ]
+# then
+#   echo "(целочисленное сравнение)"
+# fi

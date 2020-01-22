@@ -2,3 +2,60 @@ along,вдоль,ru,en
 Update remote refs along with associated objects,Обновление удаленных ссылок вместе со связанными объектами,ru,en
 DESCRIPTION,ОПИСАНИЕ,ru,en
 set,устанавливать,ru,en
+In this chapter,В этой главе,ru,en
+namespace,Пространство имен,ru,en
+Base,База,ru,en
+App,Приложение,ru,en
+early,рано,ru,en
+[Discontunued] Ubuntu Touch port [last update March 13],[Discontunued] Ubuntu Touch port [последнее обновление 13 марта],ru,en
+This is not really a workbench but this category serves to collect all "standard" commands and tools of the system which can be used in all workbenches,Это на самом деле не верстак но эта категория предназначена для сбора всех стандартных команд и инструментов системы которые можно использовать во всех верстаках.,ru,en
+Introduction,Вступление,ru,en
+Base,База,ru,en
+The Std Base is not a real workbench,Std Base не настоящий верстак,ru,en
+page,страница,ru,en
+just,только,ru,en
+collects,улавливается,ru,en
+Make,Сделать,ru,en
+App,Приложение,ru,en
+List of header files in Base folder,Список заголовочных файлов в базовой папке,ru,en
+register,регистр,ru,en
+register type and create instance from name,зарегистрировать тип и создать экземпляр из имени,ru,en
+using macro function to make type system and link to Python,использование макрофункции для создания системы типов и ссылки на Python,ru,en
+base,база,ru,en
+exceptios,exceptios,ru,en
+derived,полученный,ru,en
+from,из,ru,en
+base class for all FreeCAD exceptios derived from BaseClass,базовый класс для всех исключений FreeCAD полученных из BaseClass,ru,en
+,,ru,en
+,,ru,en
+python,питон,ru,en
+python,питон,ru,en
+python,питон,ru,en
+python,питон,ru,en
+lang_out=$(echo 'ru') delimiter=$(echo ';') text_wp="$(wget -U "Mozilla/5.0" \ -qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=$lang_out&dt=t&q=$(echo $text_in| \ sed "s/[\"'<>]//g")"| \ sed "s/0]].*//g" | \ awk -F'"' '{print $2 $6}' \ )" text_out=$(python /home/mikhaylov_yv/Programming/My_translator/python_script.py \ $text_in $delimiter $lang_out $delimiter $text_wp) notify-send "$(echo $text_out| awk 'BEGIN{FS=";"}{print $1}')" "$(echo $text_out| awk 'BEGIN{FS=";"}{print $2}')",lang_out \u003d $ (echo ru) delimiter \u003d $ (echo;) text_wp \u003d $ (wget -U Mozilla / 5.0 \\ -qO - http://translate.googleapis.com/translate_a/single?client\u003dgtx,ru,en
+lang_out=$(echo 'ru') delimiter=$(echo ';') text_wp="$(wget -U "Mozilla/5.0" \ -qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=$lang_out&dt=t&q=$(echo $text_in| \ sed "s/[\"'<>]//g")"| \ sed "s/0]].*//g" | \ awk -F'"' '{print $2 $6}' \ )" text_out=$(python /home/mikhaylov_yv/Programming/My_translator/python_script.py \ $text_in $delimiter $lang_out $delimiter $text_wp) notify-send "$(echo $text_out| awk 'BEGIN{FS=";"}{print $1}')" "$(echo $text_out| awk 'BEGIN{FS=";"}{print $2}')",lang_out \u003d $ (echo ru) delimiter \u003d $ (echo;) text_wp \u003d $ (wget -U Mozilla / 5.0 \\ -qO - http://translate.googleapis.com/translate_a/single?client\u003dgtx,ru,en
+creates,создает,ru,en
+creates,создает,ru,en
+creates,создает,ru,en
+,,ru,en
+sudo cp notitrans /usr/local/bin/notitrans,sudo cp notitrans / usr / local / bin / notitrans,ru,en
+sudo cp notitrans /usr/local/bin/notitrans,sudo cp notitrans / usr / local / bin / notitrans,ru,en
+BaseClass,BaseClass,ru,en
+,,ru,en
+,,ru,en
+,,ru,en
+Python,питон,ru,en
+,,ru,en
+,,ru,en
+origin,происхождения,ru,en
+origin,происхождения,ru,en
+Mozilla,Mozilla,ru,en
+Mozilla,Mozilla,ru,en
+create,Создайте,ru,en
+create,Создайте,ru,en
+create,Создайте,ru,en
+unexpected,неожиданный,ru,en
+sudo,Судо,ru,en
+sudo,Судо,ru,en
+не равно,не равно,ru,ru
+не равно,не равно,ru,ru
