@@ -10,7 +10,10 @@ then
 	sed "s/,,,0]],,.*//g" | \
 	awk -F'"' '{print $2, $6}' \
 	)"
+	# echo $text_wp
 	text_out=$(python /home/mikhaylov_yv/Programming/My_translator/python_script.py \
 				$text_in $delimiter $lang_out $delimiter $text_wp)
 	notify-send "$(echo $text_out| awk 'BEGIN{FS=";"}{print $1}')" "$(echo $text_out| awk 'BEGIN{FS=";"}{print $2}')"
+
 fi
+
