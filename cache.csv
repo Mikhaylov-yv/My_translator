@@ -147,3 +147,608 @@ At the heart of GitHub is an open source version control system (VCS) called Git
 At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer,В основе находится система контроля версий с открытым исходным кодом (VCS) под названием Git. Git отвечает за все что связано с что происходит локально на вашем компьютере,ru,en
 At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer,В основе GitHub находится система контроля версий с открытым исходным кодом (VCS) под названием Git. Git отвечает за все что связано с GitHub что происходит локально на вашем компьютере,ru,en
 At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer,В основе GitHub находится система контроля версий с открытым исходным кодом (VCS) под названием Git. Git отвечает за все что связано с GitHub что происходит локально на вашем компьютере,ru,en
+Feature,Особенность,ru,en
+Month,Месяц,ru,en
+Constructive Solid Geometry,Конструктивная твердая геометрия,ru,en
+describes,описывает,ru,en
+CSG stands for Constructive Solid Geometry and describes the most basic way to work with solid 3D geometry which is creating complex objects by adding and removing pieces to/from solids by using Boolean operations such as union subtraction or intersection,CSG расшифровывается как Constructive Solid Geometry и описывает наиболее простой способ работы со сплошной 3D-геометрией который заключается в создании сложных объектов путем добавления и удаления элементов в / из твердых тел с использованием логических операций таких как объединение вычитание или пересечение.,ru,en
+As we saw earlier in this manual,Как мы видели ранее в этом руководстве,ru,en
+handle,ручка,ru,en
+Failure: The Travis CI build failed,Сбой: сборка Travis CI не удалась,ru,en
+Watching,наблюдение,ru,en
+Be notified of all conversations.,Получать уведомления обо всех разговорах.,ru,en
+Be notified of new releases and when participating or @mentioned.,Получать уведомления о новых выпусках а также при участии или @mentioned.,ru,en
+Success: The Travis CI build passed,Успех: сборка Travis CI прошла,ru,en
+feature,особенность,ru,en
+New feature to limit 3D Surface op to selected face(s),Новая функция для ограничения 3D Surface op до выбранных граней,ru,en
+face,лицо,ru,en
+Disabled,Отключено,ru,en
+Waste,Трата,ru,en
+Disabled the IgnoreWaste feature. Code changes for the new face-selection feature will require new method to keep IgnoreWaste functional; therefore it is disabled until it can be reworked. Improved face processing,Отключена функция IgnoreWaste. Изменения кода для новой функции выбора лица потребуют нового метода для поддержания функциональности IgnoreWaste; следовательно он отключен пока не может быть переработан. Улучшенная обработка лица,ru,en
+Code changes for the new face-selection feature will require new method to keep IgnoreWaste functional,Изменения кода для новой функции выбора лица потребуют нового метода чтобы сохранить функциональность IgnoreWaste,ru,en
+therefore it is disabled until it can be reworked. Improved face processing,следовательно он отключен пока не может быть переработан. Улучшенная обработка лица,ru,en
+Additional fixes and improvements,Дополнительные исправления и улучшения,ru,en
+I will fix the complete edit of PathSurfaceGui.py. I am not sure why it thinks I changed the entire contents. I may have to delete this PR and make a new one to fix the issue,Я исправлю полное редактирование PathSurfaceGui.py. Я не уверен почему он думает что я изменил все содержимое. Возможно мне придется удалить этот PR и сделать новый чтобы решить проблему,ru,en
+Are you using git merge locally?,Вы используете Git Merge локально?,ru,en
+noticed,обратил внимание,ru,en
+We have noticed that the Path guys don't know how to properly rebase their branches.,Мы заметили что ребята из Path не знают как правильно перебазировать свои ветки.,ru,en
+always,всегда,ru,en
+They always end up with tons of unnecessary commits in the commit history,Они всегда заканчиваются тоннами ненужных коммитов в истории коммитов,ru,en
+rebase,лисий,ru,et
+All checks have failed,Все проверки не пройдены,ru,en
+Path: fix missing header,Путь: исправить отсутствующий заголовок,ru,en
+Developers corner,Уголок разработчиков,ru,en
+Development,развитие,ru,en
+Pull Requests,Тянуть запросы,ru,en
+Part Design module development,Разработка модуля Part Design,ru,en
+Discussion about the development of the Assembly workbench,Дискуссия о разработке сборочного верстака,ru,en
+Bushfires in Australia,Лесные пожары в Австралии,ru,en
+Bug submission guidelines,Рекомендации по представлению ошибок,ru,en
+Read this first if you want to write code for FreeCAD,Прочтите это сначала если вы хотите написать код для FreeCAD,ru,en
+If you want to write code for FreeCAD you are very welcome your work will be greatly appreciated. But you should also be aware of the following points,Если вы хотите написать код для FreeCAD добро пожаловать ваша работа будет высоко оценена. Но вы также должны знать о следующих моментах,ru,en
+FreeCAD has a very small team of developers,У FreeCAD очень небольшая команда разработчиков,ru,en
+We have not as much time as we would like to dedicate to FreeCAD,У нас не так много времени как хотелось бы посвятить FreeCAD,ru,en
+things,вещи,ru,en
+hings are not planned ahead,петли не планируются заранее,ru,en
+things are not planned ahead,вещи не планируются заранее,ru,en
+they are done when some developer sees it fit and when he finds time to do it,они сделаны когда какой-то разработчик считает это подходящим и когда он находит время чтобы сделать это,ru,en
+some,несколько,ru,en
+some developer,какой-то разработчик,ru,en
+sees,видит,ru,en
+So we don't maintain a list of tasks to be done.,Поэтому мы не поддерживаем список задач которые необходимо выполнить.,ru,en
+It is up to you to find something you would like to do for example a defect you would like to correct or a small feature you think is missing.,Вам нужно найти что-то что вы хотели бы сделать например дефект который вы хотели бы исправить или небольшую функцию которая по вашему мнению отсутствует.,ru,en
+also contains some items that are not yet assigned to anybody,также содержит некоторые элементы которые еще никому не назначены,ru,en
+that you might be interested to work on.,что вам может быть интересно работать.,ru,en
+In this case add a comment to the issue saying you would like to work on it.,В этом случае добавьте комментарий к проблеме сказав что вы хотели бы поработать над ним.,ru,en
+Before you start to code for FreeCAD,Прежде чем начать писать код для FreeCAD,ru,en
+Before you start to code for FreeCAD,Прежде чем начать писать код для FreeCAD,ru,en
+you must have a good knowledge of the application itself.,Вы должны хорошо знать само приложение.,ru,en
+This might seem obvious,Это может показаться очевидным,ru,en
+but the OpenCascade kernel of FreeCAD is very complex,но ядро \u200b\u200bOpenCascade FreeCAD очень сложное,ru,en
+and you won't go very far if you don't know how it works,и ты не пойдешь очень далеко если не знаешь как это работает,ru,en
+what it can do and what are its limitations,что он может сделать и каковы его ограничения,ru,en
+Almost everything can be done either in python or C++,Почти все можно сделать либо в Python или C,ru,en
+depending on your preference,в зависимости от ваших предпочтений,ru,en
+The internals work almost the same in both languages.,Внутренние элементы работают почти одинаково на обоих языках.,ru,en
+internals,внутренности,ru,en
+almost,почти,ru,en
+You are strongly encouraged to read through the python documentation on the FreeCAD wiki,Настоятельно рекомендуется прочитать документацию по python в вики FreeCAD,ru,en
+even if you plan to work in C++,даже если вы планируете работать в C,ru,en
+encouraged,поощряла,ru,en
+You are strongly encouraged to read through the python documentation on the FreeCAD wiki,Настоятельно рекомендуется прочитать документацию по python в вики FreeCAD,ru,en
+since it will explain you the biggest part of the concepts used in the application,поскольку он объяснит вам большую часть понятий используемых в приложении,ru,en
+If you are going to work in C++,Если вы собираетесь работать в C,ru,en
+make sure you are able compile FreeCAD successfully,убедитесь что вы можете успешно скомпилировать FreeCAD,ru,en
+If you will work in python this is not necessary.,Если вы будете работать в Python это не обязательно.,ru,en
+Present yourself to other developers.,Представьте себя другим разработчикам.,ru,en
+FreeCAD is before anything a social project,FreeCAD - это прежде всего социальный проект,ru,en
+we discuss almost everything on this forum before implementing it,мы обсуждаем практически все на этом форуме до его реализации,ru,en
+and it's always best to discuss your ideas and tell people what you are planning to do before actually doing it,и всегда лучше обсудить ваши идеи и рассказать людям что вы планируете делать прежде чем делать это на самом деле,ru,en
+before,перед,ru,en
+actually doing it,на самом деле делает это,ru,en
+Many users of this forum are long-time members of the FreeCAD community,Многие пользователи этого форума являются давними членами сообщества FreeCAD,ru,en
+have a deep knowledge of the application and can give you a lot of feedback.,иметь глубокие знания о приложении и может дать вам много отзывов.,ru,en
+We also have an IRC channel,У нас также есть канал IRC,ru,en
+but this forum is the one and only place where you can meet all the developers and knowledgeable users.,но этот форум является единственным местом где вы можете встретить всех разработчиков и знающих пользователей.,ru,en
+The best way to submit your work is to fork the,Лучший способ представить свою работу - раскошелиться,ru,en
+The best way to submit your work is to fork the,Лучший способ представить свою работу - раскошелиться,ru,en
+do your changes in a new branch and create a pull request.,внесите изменения в новую ветку и создайте запрос на извлечение.,ru,en
+More info about this process is available on the FreeCAD wiki,Больше информации об этом процессе доступно на вики FreeCAD,ru,en
+Mirroring of two objects fails.,Зеркальное отображение двух объектов не выполняется.,ru,en
+thanks for reporting. Please open first a topic in our forum as per the guidelines (big yellow box on top of the page). So the community can help confirm and identify the issue. Thx,спасибо за сообщение. Пожалуйста сначала откройте тему на нашем форуме в соответствии с рекомендациями (большая желтая рамка вверху страницы). Таким образом сообщество может помочь подтвердить и идентифицировать проблему. Спасибо,ru,en
+Introduction,Вступление,ru,en
+appears,появляется,ru,en
+tab,табуляция,ru,en
+The tree view appears in the Model tab of the combo view,Дерево отображается на вкладке Модель в комбинированном представлении.,ru,en
+one of the most important panels in the interface;,одна из самых важных панелей в интерфейсе;,ru,en
+one of the most important panels in the interface,одна из самых важных панелей в интерфейсе,ru,en
+important,важный,ru,en
+it shows all user defined objects that are part of a FreeCAD document,он показывает все определенные пользователем объекты которые являются частью документа FreeCAD,ru,en
+it shows all user defined objects that are part of a FreeCAD document,он показывает все определенные пользователем объекты которые являются частью документа FreeCAD,ru,en
+The tree view is a representation of the document's structure,Древовидное представление является представлением структуры документов,ru,en
+and indicates what information is saved to disk,и указывает какая информация сохраняется на диск,ru,en
+Working with the tree view,Работа с деревом,ru,en
+whenever,всякий раз когда,ru,en
+it is added to the end of the list in the tree view,добавляется в конец списка в виде дерева,ru,en
+Document-View-Observer Pattern,Шаблон документа-просмотра-наблюдателя,ru,en
+object is marked as 'expanded' in the tree view,объект помечен как развернутый в виде дерева,ru,en
+Actions,действия,ru,en
+Selecting the document,Выбор документа,ru,en
+If you select the active document and right click,Если вы выберите активный документ и щелкните правой кнопкой мыши,ru,en
+If you select the active document and right click,Если вы выберите активный документ и щелкните правой кнопкой мыши,ru,en
+in addition to,Кроме того,ru,en
+Mark to recompute,Отметить для пересчета,ru,en
+Hide item,Скрыть предмет,ru,en
+Inserts a primitive box in the active Body as the first feature or fuses it to the existing feature(s),Вставляет примитивный блок в активное тело как первый элемент или объединяет его с существующим элементом,ru,en
+Attachment.,Attachment.,ru,en
+Attachment,прикрепление,ru,en
+Set the Primitive parameters and Attachment,Установите параметры Примитива и Приложение,ru,en
+Job offers,Предложения о работе,ru,en
+Users Showcase,Витрина пользователей,ru,en
+Announcements & Features,Объявления,ru,en
+Info about new community or project announcements implemented features classes modules or APIs. Might get technical!,Информация о новых объявлениях сообщества или проекта реализованных функциях классах модулях или API. Может стать техническим!,ru,en
+Open discussion,Открытое обсуждение,ru,en
+Show off your FreeCAD projects here!,Покажите свои проекты FreeCAD здесь!,ru,en
+call for screenshots - By Yorik,призыв к скриншотам - Йорик,ru,en
+New showcase forum rules!,Новые правила форума витрина!,ru,en
+ELT-MAORY with FreeCAD-Assembly4,ELT-MAORY с FreeCAD Assembly4 d417779c06d67b45f16785426e87bf85,ru,fy
+4 cylinder steam engine,4 цилиндровый паровой двигатель,ru,en
+I am looking for freecad classes via Skype,Ищу классы freecad через скайп,ru,en
+looking for freelancer to build simple 3d objects (paid job),ищу фрилансера для постройки простых 3d объектов (оплачиваемая работа),ru,en
+Experienced FreeCAD developers needed,Требуются опытные разработчики FreeCAD,ru,en
+Floor plan,Поэтажный план,ru,en
+Hey all I'm VERY new to this whole 3d printing and CAD side of things having just purchased my 1st 3d printer.,Привет всем я ОЧЕНЬ новичок во всей этой 3D-печати и САПР только что купив мой первый 3d-принтер.,ru,en
+attachment,прикрепление,ru,en
+Attachment is a utility to attach an object to another one,Attachment - это утилита для прикрепления объекта к другому.,ru,en
+attach,прикреплять,ru,en
+The attached object is linked to the other object,Прикрепленный объект связан с другим объектом,ru,en
+The attached object is linked to the other object,Прикрепленный объект связан с другим объектом,ru,en
+The attached object is linked to the other object,Прикрепленный объект связан с другим объектом,ru,en
+which means that if the latter's placement is changed afterwards,Это означает что если потом будет изменено расположение последних,ru,en
+Deactivated,ММГ,ru,en
+Deactivated,ММГ,ru,en
+Deactivated,ММГ,ru,en
+Default no reference selected,По умолчанию ссылка не выбрана,ru,en
+Default no reference selected,По умолчанию ссылка не выбрана,ru,en
+aims,цели,ru,en
+Lesen,считывание,ru,de
+Pocket features,Карманные функции,ru,en
+An introduction to the 3D editor,Введение в 3D-редактор,ru,en
+Internal Alignment,Внутреннее выравнивание,ru,en
+Copies a sketcher element symmetrical to a chosen line,Копирует элемент эскиза симметрично выбранной линии,ru,en
+Recompute failed! Please check report view.,Пересчитать не удалось! Пожалуйста проверьте представление отчета.,ru,en
+Failed to recompute Unnamed#Sketch,Не удалось пересчитать Безымянный,ru,en
+Sketch with redundant constraints,Эскиз с избыточными ограничениями,ru,en
+Failed to recompute Unnamed,Не удалось пересчитать Безымянный,ru,en
+Recompute failed! Please check report view,Пересчитать не удалось! Пожалуйста проверьте представление отчета,ru,en
+Failed to validate broken face,Не удалось проверить разбитое лицо,ru,en
+Limitations,Ограничения,ru,en
+Like,подобно,ru,en
+Like all Part Design features,Как и все элементы дизайна деталей,ru,en
+Pad creates a solid,Pad создает твердое тело,ru,en
+thus the sketch must include a closed profile or it will fail with a Failed to validate broken face error,таким образом эскиз должен включать в себя закрытый профиль иначе произойдет сбой с ошибкой подтверждения ошибки разрыва,ru,en
+There can be multiple enclosed profiles inside a larger one,Внутри большего профиля может быть несколько закрытых профилей.,ru,en
+provided none intersect each other (for example a rectangle with two circles inside it),если ни один из них не пересекается (например прямоугольник с двумя кружками внутри него),ru,en
+Boolean operation:,Булева операция:,ru,en
+Dress-up tools,Инструменты для одевания,ru,en
+Thickness:,Толщина:,ru,en
+Creates a section plane that temporarily hides any matter in front of the sketch plane,Создает плоскость сечения которая временно скрывает любое вещество перед плоскостью эскиза.,ru,en
+The View section tool creates a section plane that temporarily hides any matter in front of the sketch plane,Инструмент «Вид сечения» создает плоскость сечения которая временно скрывает любые объекты перед плоскостью эскиза.,ru,en
+Press the,нажмите,ru,en
+button to toggle between section and full view.,Кнопка для переключения между разделом и полным видом.,ru,en
+Merge,Объединить,ru,en
+conic,конический,ru,en
+space,Космос,ru,en
+Allows you to hide all constraints of a sketch and make them visible again,Позволяет скрыть все ограничения эскиза и снова сделать их видимыми,ru,en
+Cross,Пересекать,ru,en
+Contribute,Делать вклад,ru,en
+features,функции,ru,en
+in explodeCompound,в ExplodeCompound,ru,en
+explode,взрываться,ru,en
+Compound,Соединение,ru,en
+creates a bunch of compound filters,создает кучу составных фильтров,ru,en
+to extract every child of a compound into a separate object.,извлечь каждого потомка соединения в отдельный объект.,ru,en
+Tool to split up compounds of shapes,Инструмент для разделения соединений форм,ru,en
+tool to split shapes by intersection with other shapes,инструмент для разделения фигур путем пересечения с другими формами,ru,en
+tool to split shapes by intersection with other shapes,инструмент для разделения фигур путем пересечения с другими формами,ru,en
+On the picture above,На картинке выше,ru,en
+the pieces were moved apart manually afterwards to reveal the slicing.,кусочки были впоследствии раздвинуты вручную чтобы показать нарезку.,ru,en
+Split,Трещина,ru,en
+Failed to recompute lesson1#Section: A fatal error occurred when running boolean operation,Не удалось пересчитать урок1,ru,en
+Shape,форма,ru,en
+Program received signal SIGSEGV Segmentation fault,Программа получила сигнал SIGSEGV ошибка сегментации,ru,en
+fix missing header,исправить отсутствующий заголовок,ru,en
+Comparing changes,Сравнение изменений,ru,en
+Choose two branches to see what’s changed or to start a new pull request. If you need to you can also,Выберите две ветки чтобы увидеть что изменилось или начать новый запрос. Если вам нужно вы также можете,ru,en
+Great to see 0.18 packaging getting there. For a while I have worked with the daily and now moved to 0.18.1 on ubuntu 18.10. The past couple of weeks I noticed the file icons are missing in the toolbar (the upper left most four icons). Also a bunch in the file dropdown menu are missing but apparently ubuntu doesn't make a screenshot when a menu is opened,Приятно видеть 018 упаковки. Некоторое время я работал с ежедневником и теперь перешел на 0.18.1 в Ubuntu 18.10. В последние пару недель я заметил что на панели инструментов отсутствуют значки файлов (в левом верхнем углу четыре значка). Также отсутствует куча в выпадающем меню файлов но Ubuntu по-видимому не делает снимок экрана при открытии меню.,ru,en
+This has been going on for a while butI see now that the bug persists in 0.18.1 so I thought I make a note about it here. Is it just me or are more of you encountering this?,Это продолжалось какое-то время но теперь я вижу что ошибка сохраняется в 0.18.1 поэтому я подумал об этом здесь. Это только у меня или больше с вами сталкивались?,ru,en
+Why is that exactly?,Почему это именно так?,ru,en
+I think the default way for linux apps is usually to adopt system theme...,Я думаю что по умолчанию для приложений linux обычно используется системная тема ...,ru,en
+IMHO it should be opt-out not opt-in,ИМХО это должно быть отказано а не подписаться,ru,en
+I can change it to opt-out,Я могу изменить это чтобы отказаться,ru,en
+as previously on Linux this wasn't possible,как ранее в Linux это было невозможно,ru,en
+you basically couldn't opt-out,вы в принципе не могли отказаться,ru,en
+And therefore things would still improve being able to opt-out,И следовательно все еще будет улучшаться будучи в состоянии отказаться,ru,en
+The reason i went with opt-in is i followed the debates on the forum and there was a plethora of people considering this behavior being a bug in need to get fixed asking when it will get fixed.,Причина по которой я пошел с подпиской заключается в том что я следил за дискуссиями на форуме и было множество людей считавших что это поведение является ошибкой которую необходимо исправить и спрашивали когда она будет исправлена.,ru,en
+Due to i guess poor FreeCAD icon support in Linux icon theme packs,Из-за плохой поддержки иконок FreeCAD в пакетах тем иконок Linux,ru,en
+You get a couple of icons such as Open Save Full Screen and usually it ends there.,Вы получаете пару значков таких как «Открыть» «Сохранить» «Полноэкранный режим» и обычно это заканчивается там.,ru,en
+FreeCAD icons and such icons from themes are usually styled completely differently and people feel they lost FreeCAd icons when in reality that is just how icons from the icon pack look or some fallback icon gets used and it looks completely off.,Значки FreeCAD и такие значки из тем обычно оформляются совершенно по-разному и люди чувствуют что они потеряли значки FreeCAd когда на самом деле именно так выглядят значки из пакета значков или используется какой-то запасной значок и он выглядит совсем не так.,ru,en
+If you feel there should be more debate i can initiate that on the forum in the linked thread.,Если вы чувствуете что должно быть больше дебатов я могу инициировать это на форуме в связанной ветке.,ru,en
+All checks have failed,Все проверки не пройдены,ru,en
+This branch is out-of-date with the base branch,Эта ветка устарела с базовой веткой,ru,en
+on hold,на удерживании,ru,en
+I disabled all other build jobs and lets see on how GCC caching will behave after a couple of builds. Hence once this PR builds successfully it makes sense to merge it.,Я отключил все остальные задания сборки и посмотрим как будет вести себя кэширование GCC после нескольких сборок. Следовательно как только этот PR строится успешно имеет смысл объединить его.,ru,en
+Travis - determine cause of caching issues for GCC,Travis - определить причину проблем с кэшированием для GCC,ru,en
+Can not move part anymore.,Не могу больше двигаться.,ru,en
+Hi I've just updated from 0.4.29 to latest versions and "Move" button stopped working. Transform dialog is opened instead. 0.4.39 - same behavior,Привет я только что обновился с 0.4.29 до последних версий и кнопка Переместить перестала работать. Вместо этого открывается диалог трансформации. 0.4.39 - такое же поведение,ru,en
+The "Move" function has been replaced by the std. transform tool for more precision. So the parts can be moved around using this.,Функция Move была заменена на стандартную. инструмент преобразования для большей точности. Таким образом части могут быть перемещены с помощью этого.,ru,en
+But transform does not allow to move freely with the mouse not so handy IMO. Is it possible to make parts moving just by grabbing with mouse? Or FreeCAD does not allow such a behavior?,Но трансформация не позволяет свободно перемещаться с помощью мыши что не так удобно IMO. Можно ли заставить детали двигаться просто хватая их мышкой? Или FreeCAD не допускает такого поведения?,ru,en
+Using the transform tool it is possible to do more things with the mouse than before. You can move and rotate the part directly in the 3D View by mouse. Rotating wasn't possible before. A little backdraw is that you have to close the dialog when finished,Используя инструмент трансформации с помощью мыши можно сделать больше вещей чем раньше. Вы можете перемещать и вращать деталь непосредственно в 3D-виде с помощью мыши. Вращение не было возможно раньше. Небольшой отступ - то что вы должны закрыть диалог когда закончите,ru,en
+Hi sorry to add this here but I also posted it in Freecad Forum and it seems that no one is available to help this time.,Привет извините что добавил это сюда но я также разместил это на форуме Freecad и кажется что никто не может помочь в этот раз.,ru,en
+Is it possible to do something like here,Можно ли сделать что-то вроде здесь,ru,en
+you can run FC in headless mode and have Gui available.,вы можете запускать FC в режиме без головы и иметь доступ к Gui.,ru,en
+I tried that a little bit I don't like the approach but it opens the Gui then suddenly hides it and after that my script breaks.,Я попробовал это немного мне не нравится подход но он открывает Gui затем внезапно скрывает это и после этого мой сценарий ломается.,ru,en
+I saw that I was not importing A2Plus scripts. So I could import import A2Plus by appending the python path to ~/.FreeCAD/Mod/. I think now I can use the A2Plus functions directly but I couldn't verify this yet.,Я видел что я не импортировал сценарии A2Plus. Поэтому я могу импортировать импорт A2Plus добавив путь к Python в ~ / .FreeCAD / Mod /. Я думаю что теперь я могу использовать функции A2Plus напрямую но я пока не могу это проверить.,ru,en
+See part from STEP file and saved as FCStd file:,Смотрите часть из файла STEP и сохраните как файл FCStd:,ru,en
+Features of the A2plus workbench,Особенности верстака A2plus,ru,en
+Usage hints for the A2plus workbench,Советы по использованию рабочего места A2plus,ru,en
+I might add that FreeCAD another free and open source software (by @yorik @bernd and others) also imports your file successfully and renders the colours correctly. (The green line in the screenshot is because I have selected that particular edge),Я мог бы добавить что FreeCAD другое бесплатное программное обеспечение с открытым исходным кодом (@yorik @bernd и др.) Также успешно импортирует ваш файл и правильно отображает цвета. (Зеленая линия на скриншоте потому что я выбрал именно этот край),ru,en
+I might also add the insight that transparency was only added in IFC4 to the IfcSurfaceStyleShading so that might explain why Solibri might not have quite so good support for it yet.,Я мог бы также добавить что прозрачность была добавлена \u200b\u200bтолько в IFC4 в так что это может объяснить почему Solibri пока не имеет такой хорошей поддержки.,ru,en
+So that makes three uncertified applications that support this spec-compliant behavior and 2 “certified” applications that don’t. Makes total sense ￼ Thanks for the extra checks!,Таким образом получается три несертифицированных приложения которые поддерживают это поведение совместимое со спецификацией и 2 «сертифицированных» приложения которые не поддерживают. Имеет смысл ￼ Спасибо за дополнительные проверки!,ru,en
+confirm,подтверждения,ru,en
+Can you confirm this is still an issue when using latest FreeCAD 0.19 DMG,Можете ли вы подтвердить что это все еще проблема при использовании последней версии FreeCAD 0.19 DMG?,ru,en
+Give me some days I don't have the external monitor close to my actual home so I need a few days to check it out.,Дайте мне несколько дней у меня нет внешнего монитора рядом с моим домом поэтому мне нужно несколько дней чтобы проверить его.,ru,en
+I can confirm that this is still an issue. I just installed 0.19-19107: the icons look cropped on my external monitor and they look fine on my main monitor. This is on a Macbook Pro 13" with retina display.,Я могу подтвердить что это все еще проблема. Я только что установил 0.19-19107: значки выглядят обрезанными на моем внешнем мониторе и они хорошо выглядят на моем основном мониторе. Это на Macbook Pro 13 с дисплеем сетчатки.,ru,en
+I also had the time to check it out this Christmas and the bug is still present...,У меня также было время чтобы проверить это в это Рождество и ошибка все еще присутствует ...,ru,en
+This is an upstream Qt issue.,Это восходящая проблема Qt.,ru,en
+A while back we have enabled AA_UseHighDpiPixmaps attribute in FreeCAD to get nice icons on HiDPI displays.,Некоторое время назад мы включили в FreeCAD атрибут чтобы получать красивые значки на дисплеях HiDPI.,ru,en
+In addition there is an icon theme (FreeCAD-default) embedded and used in FreeCAD by default.,Кроме того есть тема значков (FreeCAD-default) встроенная и используемая во FreeCAD по умолчанию.,ru,en
+For multi-body projects it is more user-friendly and usable to allow externals from another bodies.,Для проектов с несколькими телами удобнее и удобнее использовать внешние элементы из других тел.,ru,en
+Return allowOtherBody value to make this feature configurable.,Верните значение allowOtherBody чтобы сделать эту функцию настраиваемой.,ru,en
+Thanks for contributing to FreeCAD.,Спасибо за участие в FreeCAD.,ru,en
+It used to be that way but there were problems upon changes of referenced elements (the referenced body) and this possibility was removed. See Werner's explanation:,Раньше так и было но возникали проблемы при смене ссылочных элементов (ссылочного тела) и эта возможность была исключена. См. Объяснение Вернерса:,ru,en
+remove possibility of directly cross-referencing other body use shap,исключить возможность прямой перекрестной ссылки на другое тело используйте shap,ru,en
+If it matches your use case carbon copy (which works using the expressions engine instead of external geometry) may be an alternative to shapebinder.,Если это соответствует вашему варианту использования копирование (которое работает с помощью механизма выражений вместо внешней геометрии) может быть альтернативой shapebinder.,ru,en
+Any more progress on this ?,Есть еще прогресс в этом?,ru,en
+In case of FreeCAD there are new concept of modules (sketcher part design and assembly) required. But try to use shape binder (or another CAD) to create more complex things.,В случае FreeCAD требуется новая концепция модулей (эскиз проектирование и сборка деталей). Но попробуйте использовать связыватель формы (или другой CAD) для создания более сложных вещей.,ru,en
+i think that it will be better to look at another (professional) CAD systems and make FreeCAD to be better and user-friendly.,Я думаю что будет лучше взглянуть на другие (профессиональные) CAD-системы и сделать FreeCAD лучше и удобнее для пользователя.,ru,en
+Attachment of Sketch in Linked File,Вложение эскиза в связанный файл,ru,en
+If you are working in a linked file and add a sketch to a Body of a Part it appears it is currently not possible to attach this sketch by any map mode. Is this by design an oversight or technically not possible? Or am I missing something?,Если вы работаете в связанном файле и добавляете эскиз к телу детали кажется что в настоящее время невозможно прикрепить этот эскиз в любом режиме карты. Это из-за замысла недосмотра или технически невозможно? Или я что-то упустил?,ru,en
+This capability would support in-context partial design of a body in the Part_File by one designer and then completing details of the body in the Linked_File by another designer. This is a typical requirement for top-down-design work process.,Эта возможность будет поддерживать частичное проектирование тела в Part_File в одном контексте одним разработчиком а затем завершать деталирование тела в Linked_File другим разработчиком. Это типичное требование для процесса проектирования сверху вниз.,ru,en
+Meta object code from reading C++ file 'TaskAttacher.h',Мета-объектный код из чтения файла C TaskAttacher.h,ru,en
+Form generated from reading UI file,Форма сгенерированная из файла чтения пользовательского интерфейса,ru,en
+Credits,кредиты,ru,en
+Sketcher solver,Sketcher Solver,ru,en
+Internals,Внутренности,ru,en
+Module developer's guide to FreeCAD source code,Руководство разработчика модулей по исходному коду FreeCAD,ru,en
+Modifying FreeCAD,Модификация FreeCAD,ru,en
+Understanding,понимание,ru,en
+Branding,Брендинг,ru,en
+Branding or how to give FreeCAD a unique look,Брендинг или как придать FreeCAD уникальный вид,ru,en
+Artwork we made for FreeCAD that you can freely reuse,Иллюстрации которые мы сделали для FreeCAD которые вы можете свободно использовать,ru,en
+Artwork guidelines standards for icons,Стандарты руководящих принципов для иконок,ru,en
+Extra python modules or how to extend python functionality within FreeCAD,Дополнительные модули Python или как расширить функциональность Python в FreeCAD,ru,en
+Merged pull request,Объединенный запрос на извлечение,ru,en
+fixes typo in Part Design workbench,исправляет опечатку в верстаке Part Design,ru,en
+Open Cascade Technology,Открытая каскадная технология,ru,en
+Click on Cube001 in the left side Model tab,Нажмите на Cube001 в левой части вкладки Модель,ru,en
+Now we can subtract one from the other,Теперь мы можем вычесть одно из другого,ru,en
+Select the first one that is the one that will stay,Выберите первый то есть тот который останется,ru,en
+then with the CTRL key pressed select the other one that will be subtracted (the order is important) and press the ￼ Cut button,затем удерживая клавишу CTRL выберите другой который будет вычтен (порядок важен) и нажмите кнопку ￼ Cut,ru,en
+Observe that the newly created object,Обратите внимание что вновь созданный объект,ru,en
+called,называется,ru,en
+still contains the two cubes we used as operands,до сих пор содержит два куба которые мы использовали в качестве операндов,ru,en
+operands,операнды,ru,en
+In fact the two cubes are still there in the document,На самом деле два куба все еще есть в документе,ru,en
+they have merely been hidden and grouped under the Cut object in the tree view.,они просто были спрятаны и сгруппированы под объектом Cut в виде дерева.,ru,en
+they have merely been hidden and grouped under the Cut object in the tree view.,они просто были спрятаны и сгруппированы под объектом Cut в виде дерева.,ru,en
+still,Все еще,ru,en
+them,их,ru,en
+expanding,расширяющийся,ru,en
+You can still select them by expanding the arrow next to the Cut object,Вы все еще можете выбрать их развернув стрелку рядом с объектом Cut.,ru,en
+and if you wish turn them visible again by right-clicking them or change any of their properties.,и если хотите снова сделайте их видимыми щелкнув их правой кнопкой мыши или изменив любое из их свойств.,ru,en
+Now let's create the three other feet by duplicating our base cube 6 other times. Since it is still copied you can simply paste (Ctrl+V) 6 times. Change their position as follows:,Теперь давайте создадим три других фута дублируя наш базовый куб 6 раз. Поскольку он все еще копируется вы можете просто вставить (Ctrl V) 6 раз. Измените их положение следующим образом:,ru,en
+episodes,эпизоды,ru,en
+full,полный,ru,en
+Cropped icons,Обрезанные значки,ru,en
+This file is part of the FreeCAD CAx development system,Этот файл является частью системы разработки FreeCAD CAx,ru,en
+This library is free software; you can redistribute it and/or,Эта библиотека является свободным программным обеспечением; Вы можете распространять его и / или,ru,en
+Loading Sketcher module... done,Загрузка модуля Sketcher ... выполнено,ru,en
+Loading GUI of Sketcher module... done,Загрузка графического интерфейса модуля Sketcher ... выполнено,ru,en
+Add Types to module,Добавить типы в модуль,ru,en
+NOTE: To finish the initialization of our own type objects we must,ПРИМЕЧАНИЕ. Чтобы завершить инициализацию объектов собственного типа мы должны,ru,en
+call PyType_Ready otherwise we run into a segmentation fault later on.,вызовите PyType_Ready в противном случае позже мы столкнемся с ошибкой сегментации.,ru,en
+This function is responsible for adding inherited slots from a type's base class.,Эта функция отвечает за добавление унаследованных слотов из базового класса типов.,ru,en
+The Geoms list might be empty after an undo/redo,Список Geoms может быть пустым после отмены / повтора,ru,en
+Dependent,зависимый,ru,en
+Introduction,Вступление,ru,en
+bottom,дно,ru,en
+bottom up geometry building from 2D sketch profile (wire) to 3D part,построение геометрии снизу вверх от 2D-профиля эскиза (провод) до 3D-детали,ru,en
+bottom up geometry building from 2D sketch profile (wire) to 3D part,построение геометрии снизу вверх от 2D-профиля эскиза (провод) до 3D-детали,ru,en
+parameterization and constraint is constr,параметризация и ограничение постоянны,ru,en
+Quantity,Количество,ru,en
+Units,Единицы измерения,ru,en
+Datum,дата,ru,de
+set the datum of a distance or angle constraint to a certain value and solve,установить точку привязки расстояния или угла к определенному значению и решить,ru,en
+This can cause the solving to fail!,Это может привести к сбою решения!,ru,en
+add a horizontal distance constraint to two points or line ends,добавить ограничение по горизонтали на две точки или концы линий,ru,en
+Returns the size of the Geometry,Возвращает размер геометрии,ru,en
+fix regression with line width I introduced today,исправить регрессию с шириной линии которую я представил сегодня,ru,en
+RichTextAnnotation issues,RichTextAnnotation проблемы,ru,en
+Rich,Богатый,ru,en
+There is another issue,Есть еще одна проблема,ru,en
+select the RichAnno in the tree,выберите RichAnno в дереве,ru,en
+and delete it,и удали его,ru,en
+undo the deletion,отменить удаление,ru,en
+result: the Rich Anno is restored but no longer part of the ProjGroup,результат: Rich Anno восстановлен но больше не является частью ProjGroup,ru,en
+Some checks haven’t completed yet,Некоторые проверки еще не завершены,ru,en
+This pull request can be automatically merged by project collaborators,Этот запрос извлечения может быть автоматически объединен соавторами проекта.,ru,en
+Flatpak additional instructions,Флэтпак дополнительные инструкции d417779c06d67b45f16785426e87bf85,ru,da
+Created a pull request in FreeCAD/FreeCAD that received 1 comment,Создал пул-запрос в FreeCAD / FreeCAD который получил 1 комментарий,ru,en
+Rename GDML Workbench icon,Переименовать GDML Workbench icon,ru,en
+Renamed GDML Worbench icon from "GDML_worbench.svg" to "GDML_worbench_icon.svg" because while building FreeCAD the compiler requires "GDML_worbench_icon.svg",Переименован значок GDML Worbench из GDML_worbench.svg в GDML_worbench_icon.svg поскольку при сборке FreeCAD компилятору требуется GDML_worbench_icon.svg,ru,en
+Wanderer,странник,ru,en
+fix EdgeCapStyle default,исправить EdgeCapStyle по умолчанию,ru,en
+fix missing parm save/restore,исправить пропущенный parm сохранить / восстановить,ru,en
+Default color and weight for markup lines,Цвет и вес по умолчанию для линий разметки,ru,en
+python scripting in console mode and python-based macro recording in GUI mode,скриптинг на python в режиме консоли и запись макросов на основе python в режиме GUI,ru,en
+overview,обзор,ru,en
+First of all,Прежде всего,ru,en
+thanks to the original developers,спасибо оригинальным разработчикам,ru,en
+thanks to the original developers,спасибо оригинальным разработчикам,ru,en
+Get started with GitHub Actions,Начните с GitHub Actions,ru,en
+Actions,действия,ru,en
+Python application,Приложение на Python,ru,en
+Sort tasks,Сортировать задачи,ru,en
+￼ WIP,￼ WIP,ru,en
+Wrong sketch mapping,Неверное отображение эскиза,ru,en
+This has annoyed me for quite some time but today I decided to write about it.,Это раздражало меня довольно долго но сегодня я решил написать об этом.,ru,en
+I want to make several cylinders (coin models) which are the same geometry and just different dimensions,Я хочу сделать несколько цилиндров (моделей монет) которые имеют одинаковую геометрию и просто разные размеры,ru,en
+So I created a body created a sketch with a circle in it added diameter constraint and padded.,Поэтому я создал тело создал эскиз с кружком добавил ограничение по диаметру и добавил.,ru,en
+Now I have the first coin.,Теперь у меня есть первая монета.,ru,en
+Next is to just duplicete that,Далее просто дублировать,ru,en
+move aside and change dimensions for the next one.,отодвинуться и изменить размеры для следующего.,ru,en
+Edit/Duplicate selected object,Редактировать / Дублировать выбранный объект,ru,en
+in the presented list everything is selected,в представленном списке все выделено,ru,en
+Two different things happen,Случаются две разные вещи,ru,en
+If the first coin was active body the mewly created sketch is mapped to the old XY plane.,Если первая монета была активным телом то созданный с нуля эскиз отображается на старой плоскости XY.,ru,en
+If first coin was NOT an active body everything works as expected and newly created sketch is properly mapped to the new XY plane.,Если первая монета НЕ была активным телом все работает как положено и вновь созданный эскиз правильно отображается на новую плоскость XY.,ru,en
+Can someone confirm?,Может кто-нибудь подтвердить?,ru,en
+Confirmed,подтвердил,ru,en
+Also when I choose View->Duplicate Object I get (in both cases) an error message box with following text (and same in report view):,Также когда я выбираю View-Duplicate Object я получаю (в обоих случаях) окно сообщения об ошибке со следующим текстом (и то же самое в представлении отчета):,ru,en
+BTW I just noticed that when I press Ctrl+C with mouse over Report view it it wrongly caught and runs a copy command on the selected object...,Кстати я только что заметил что когда я нажимаю Ctrl C при наведении мыши на представление отчета он ошибочно перехватывает и запускает команду копирования на выбранном объекте ...,ru,en
+Could some mac/linux user check this to rule out OS specific issue and create appropriate bug report?,Может ли какой-нибудь пользователь Mac / Linux проверить это чтобы исключить проблему связанную с ОС и создать соответствующий отчет об ошибке?,ru,en
+I get the same message as openBrain.,Я получаю то же сообщение что и openBrain.,ru,en
+Two different things happen,Случаются две разные вещи,ru,en
+If the first coin was active body the mewly created sketch is mapped to the old XY plane,Если первая монета была активным телом то созданный с нуля эскиз отображается на старой плоскости XY,ru,en
+If first coin was NOT an active body everything works as expected and newly created sketch is properly mapped to the new XY plane.,Если первая монета НЕ была активным телом все работает как положено и вновь созданный эскиз правильно отображается на новую плоскость XY.,ru,en
+If first coin was NOT an active body everything works as expected and newly created sketch is properly mapped to the new XY plane.,Если первая монета НЕ была активным телом все работает как положено и вновь созданный эскиз правильно отображается на новую плоскость XY.,ru,en
+Object can only be in a single GeoFeatureGroup,Объект может быть только в одной GeoFeatureGroup,ru,en
+Submitting patches,Отправка патчей,ru,en
+relies,полагается,ru,en
+A very large part of its functionality provides associated Python bindings,Очень большая часть его функциональных возможностей обеспечивает связанные привязки Python,ru,en
+A very large part of its functionality provides associated Python bindings,Очень большая часть его функциональных возможностей обеспечивает связанные привязки Python,ru,en
+Base,База,ru,en
+contains core functionality commonly used everywhere in FreeCAD: 3D vectors units matrices placements etc.,содержит основные функциональные возможности обычно используемые в FreeCAD повсеместно: трехмерные векторы единицы измерения матрицы размещения и т. д.,ru,en
+contains the FreeCAD GUI-mode application defines the 3D view contains many tools and functions to be used by workbenches to interact with the interface and with the 3D view defines base classes for view providers.,содержит приложение с графическим интерфейсом FreeCAD определяет трехмерный вид содержит множество инструментов и функций которые будут использоваться рабочими местами для взаимодействия с интерфейсом и трехмерным видом определяет базовые классы для поставщиков представлений.,ru,en
+contains all the modules themselves further separated into App and Gui (except for python modules which don't always follow that rule so clearly).,содержит все модули сами разделенные на App и Gui (за исключением модулей python которые не всегда так четко следуют этому правилу).,ru,en
+imports the one and only,импортирует один-единственный,ru,en
+List of header files in App folder,Список заголовочных файлов в папке приложения,ru,en
+List of header files in App folder,Список заголовочных файлов в папке приложения,ru,en
+method called in QApplication to init and run FreeCAD,метод вызывается в QApplication для инициализации и запуска FreeCAD,ru,en
+method called in QApplication to init and run FreeCAD,метод вызывается в QApplication для инициализации и запуска FreeCAD,ru,en
+change,сдача,ru,en
+build-essential installs the C and C++ compilers the C development libraries and the make program,build-essential устанавливает компиляторы C и C библиотеки разработки C и программу make,ru,en
+essential tools to produce shared libraries.,необходимые инструменты для создания общих библиотек.,ru,en
+Before,Перед,ru,en
+Before you go through the pain of debugging use the,Прежде чем пройти через отладку используйте,ru,en
+to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.,проверить работают ли стандартные тесты должным образом. Если они не запускаются полностью возможно произошел сбой установки.,ru,en
+Command Line,Командная строка,ru,en
+Generating a Backtrace,Генерация обратного следа,ru,en
+If you are running a version of FreeCAD from the bleeding edge of the development curve,Если вы работаете с версией FreeCAD из передового края кривой развития,ru,en
+it may "crash".,это может потерпеть крах.,ru,en
+You can help solve such problems by providing the developers with a "backtrace".,Вы можете помочь решить такие проблемы предоставив разработчикам обратную трассировку.,ru,en
+To do this you need to be running a "debug build" of the software.,Для этого вам нужно запустить отладочную версию программного обеспечения.,ru,en
+"Debug build" is a parameter that is set at compile time so you'll either need to compile FreeCAD yourself or obtain a pre-compiled "debug" version.,Отладочная сборка - это параметр который устанавливается во время компиляции поэтому вам нужно либо скомпилировать FreeCAD самостоятельно либо получить предварительно скомпилированную отладочную версию.,ru,en
+Prerequisites,Предпосылки,ru,en
+software package gdb installed,установлен программный пакет gdb,ru,en
+a debug build of FreeCAD (at this time only available by building from source),отладочная сборка FreeCAD (в настоящее время доступна только при сборке из исходного кода),ru,en
+a FreeCAD model that causes a crash,модель FreeCAD вызывающая сбой,ru,en
+Steps: Enter the following in your terminal window:,Шаги: введите следующее в окне терминала:,ru,en
+GNUdebugger will output some initializing information. The (gdb) shows GNUDebugger is running in the terminal now input:,GNUdebugger выведет некоторую инициализирующую информацию. (Gdb) показывает что GNUDebugger работает в терминале теперь введите:,ru,en
+GNUdebugger will output some initializing information. The (gdb) shows GNUDebugger is running in the terminal now input:,GNUdebugger выведет некоторую инициализирующую информацию. (Gdb) показывает что GNUDebugger работает в терминале теперь введите:,ru,en
+GNUdebugger will output some initializing information. The (gdb) shows GNUDebugger is running in the terminal now input,GNUdebugger выведет некоторую инициализирующую информацию. (GDB) показывает что GNUDebugger работает в терминале теперь введите,ru,en
+Thread,Нить,ru,en
+FreeCAD will now start up. Perform the steps that cause FreeCAD to crash or freeze then enter in the terminal window:,FreeCAD теперь запустится. Выполните шаги которые приводят к сбою или зависанию FreeCAD затем введите в окне терминала:,ru,en
+This will generate a lengthy listing of exactly what the program was doing when it crashed or froze. Include this with your problem report.,Это создаст длинный список того что именно делала программа когда она зависала или зависала. Включите это в свой отчет о проблеме.,ru,en
+Python workbenches debugging,Отладка рабочих мест Python,ru,en
+Another,Другой,ru,en
+Another very nice and lightweight debugger is winpdb.,Еще один очень приятный и легкий отладчик - winpdb.,ru,en
+To start remote debugging go to File > Attach of the running winpdb application and enter the requested password. At the top of the script add,Чтобы начать удаленную отладку перейдите в раздел «Присоединение файла» запущенного приложения winpdb и введите запрошенный пароль. Вверху сценария добавьте,ru,en
+developing,развивающийся,ru,en
+I just relized a part of my idea  but there are to many bugs. I used to use notepad++ as my editor  but it didn't have debug function .,Я просто пересмотрел часть своей идеи но есть много ошибок. Я использовал блокнот в качестве редактора но у него не было функции отладки.,ru,en
+Eric,Эрик,ru,en
+I know Eric and eclipse could debug python code,Я знаю что Эрик и затмение могли бы отлаживать код Python,ru,en
+But how to debug it with FreeCAD ,Но как отладить его с помощью FreeCAD,ru,en
+I wanted the stpe-by-step debug function .,Я хотел пошаговую функцию отладки.,ru,en
+could,мог,ru,en
+interface,интерфейс,ru,en
+What IDE do you use  and how to set the stpe-by-step debug function with FreeCAD that I could see the FreeCAD interface while debuging?,Какую IDE вы используете и как установить пошаговую функцию отладки stpe с FreeCAD чтобы я мог видеть интерфейс FreeCAD во время отладки?,ru,en
+I would like to get a feeling for this now ?,Я хотел бы почувствовать это сейчас?,ru,en
+I presume it is not a straight forward process Any suggestions I am running Ubuntu 16.04.1 ? I mainly work on python so being able to have auto completion and flake 8 formatting is important.,Я предполагаю что это не простой процесс какие-либо предложения я использую Ubuntu 16.04.1? Я в основном работаю на python поэтому очень важно иметь возможность автозаполнения и форматирования flake 8.,ru,en
+[SOLVED] - Set up PyCharm,[Решено] - Настройка PyCharm,ru,en
+I think that only works on Windows so does that mean you are developing on Windows?,Я думаю что это работает только на Windows значит ли это что вы разрабатываете на Windows?,ru,en
+Does this old topic here answer your question? Its all a bit confusing to me but I thought it might help.,Эта старая тема отвечает на ваш вопрос? Все это немного смущает меня но я подумал что это может помочь.,ru,en
+You can ask any time but don't stop coding,Вы можете спросить в любое время но не переставайте кодировать,ru,en
+Here is another link that might possibly be helpful.,Вот еще одна ссылка которая может быть полезна.,ru,en
+Introduction,Вступление,ru,en
+The Python console is a panel that runs an instance of the Python interpreter which can be used to control FreeCAD processes,Консоль Python - это панель на которой запускается экземпляр интерпретатора Python который можно использовать для управления процессами FreeCAD.,ru,en
+which,который,ru,en
+and create and modify objects and their properties,и создавать и изменять объекты и их свойства,ru,en
+their,их,ru,en
+properties,свойства,ru,en
+Links shown in the video: The code repo (which also has most of these links): https://github.com/skaiser/D3D-Printe.... But since that's under active development for an actual feature see also,Ссылки показанные на видео: репозиторий кода (который также содержит большинство этих ссылок): https: //github.com/skaiser/D3D-Printe .... Но поскольку он находится в стадии активной разработки для реальной функции см. Также,ru,en
+Starter,Стартер,ru,en
+Environment,Окружающая обстановка,ru,en
+Simplistic,упрощенный,ru,en
+A Simplistic Development Environment for Python within FreeCAD,Упрощенная среда разработки для Python во FreeCAD,ru,en
+environment,окружающая обстановка,ru,en
+Python is a programming environment which has been incorporated into the FreeCAD system.,Python - это среда программирования встроенная в систему FreeCAD.,ru,en
+Using Python many operations offered by FreeCAD are available for programmatic access.,При использовании Python многие операции предлагаемые FreeCAD доступны для программного доступа.,ru,en
+Python programs for FreeCAD are usually developed to be either run on the Python console or through the Macro facility of FreeCAD (see How to install macros).,Программы Python для FreeCAD обычно разрабатываются либо для запуска на консоли Python либо с помощью средства макросов FreeCAD (см. Как установить макросы).,ru,en
+Background,Фон,ru,en
+There are numerous tools available for program development in Python.,Существует множество инструментов для разработки программ на Python.,ru,en
+The complicating factors for developing Python to use with FreeCAD are twofold:,Сложные факторы для разработки Python для использования с FreeCAD имеют два аспекта:,ru,en
+first the tools do not have any support for the numerous data structures and access points of FreeCAD; secondly they do not work "within FreeCAD".,во-первых инструменты не поддерживают многочисленные структуры данных и точки доступа FreeCAD; во-вторых они не работают внутри FreeCAD.,ru,en
+first the tools do not have any support for the numerous data structures and access points of FreeCAD,Во-первых инструменты не поддерживают многочисленные структуры данных и точки доступа FreeCAD.,ru,en
+secondly they do not work "within FreeCAD",во-вторых они не работают внутри FreeCAD,ru,en
+This means that you can use them to develop code outside of FreeCAD and not be able to test in the target environment,Это означает что вы можете использовать их для разработки кода вне FreeCAD и не иметь возможности проводить тестирование в целевой среде,ru,en
+or you can develop Python in the target environment (i.e. the FreeCAD environment) but not have any support from the development tools,или вы можете разрабатывать Python в целевой среде (то есть в среде FreeCAD) но не иметь никакой поддержки от инструментов разработки,ru,en
+Neither of these is an acceptable solution.,Ни один из них не является приемлемым решением.,ru,en
+Modern software development at the commercial standard is usually done using a set of tools generically referred to as 'IDE'.,Современная разработка программного обеспечения по коммерческому стандарту обычно выполняется с использованием набора инструментов обычно называемых IDE.,ru,en
+Modern software development at the commercial standard is usually done using a set of tools generically referred to as 'IDE'.,Современная разработка программного обеспечения по коммерческому стандарту обычно выполняется с использованием набора инструментов обычно называемых IDE.,ru,en
+Typically these tools include the following 3:,Обычно эти инструменты включают в себя следующие 3:,ru,en
+Typically these tools include the following 3:,Обычно эти инструменты включают в себя следующие 3:,ru,en
+source code editor,редактор исходного кода,ru,en
+build automation tools,инструменты автоматизации сборки,ru,en
+debugger,отладчик,ru,en
+which are standard while the following are present in some IDEs but not in others:,которые являются стандартными в то время как в некоторых IDE присутствует следующее а в других нет:,ru,en
+intelligent code completion,интеллектуальное завершение кода,ru,en
+integrated compiler interpreter or both,встроенный компилятор интерпретатор или оба,ru,en
+A summary of the status of these tools within FreeCAD is ('N/A' meaning 'Not Available'):,Сводная информация о состоянии этих инструментов в FreeCAD (N / A означает «Недоступно»):,ru,en
+source code editor,редактор исходного кода,ru,en
+a variety of editors are available for the platforms supported by FreeCAD discussed below,Для платформ поддерживаемых FreeCAD доступно множество редакторов которые обсуждаются ниже.,ru,en
+build automation tools,инструменты автоматизации сборки,ru,en
+planned but not available yet there are some work-arounds discussed below,запланировано но пока не доступно есть некоторые обходные пути которые обсуждаются ниже,ru,en
+planned but not available yet there are some work-arounds discussed below,запланировано но пока не доступно есть некоторые обходные пути которые обсуждаются ниже,ru,en
+intelligent code completion,интеллектуальное завершение кода,ru,en
+there is some available through the Python console but that is all,есть некоторые доступные через консоль Python но это все,ru,en
+integrated compiler interpreter or both,встроенный компилятор интерпретатор или оба,ru,en
+The Python compiler is integrated with the Python console but not with the editors,Компилятор Python интегрирован с консолью Python но не с редакторами,ru,en
+Many tools exist to support the above function for Python programming but unfortunately they do not integrate with the FreeCAD development environment.,Существует множество инструментов для поддержки вышеуказанной функции для программирования на Python но к сожалению они не интегрируются со средой разработки FreeCAD.,ru,en
+A list of IDEs for Python is located at Integrated Development Environments for Python,Список IDE для Python находится в интегрированных средах разработки для Python.,ru,en
+Editors,редакторы,ru,en
+There is an editor for Python as part of FreeCAD,В составе FreeCAD есть редактор для Python.,ru,en
+Note,Заметка,ru,en
+For the Macintosh the text editor TextWrangler works well,Для Macintosh хорошо работает текстовый редактор TextWrangler,ru,en
+Debugger,дебаггер,ru,en
+A debugger is planned for FreeCAD and these steps are a work-around until it is available. See github.com/mumme74/FreeCAD/tree/editor_fixes,Для FreeCAD запланирован отладчик и эти шаги являются обходным пока он не станет доступен. См. Github.com/mumme74/FreeCAD/tree/editor_fixes.,ru,en
+typically provide two main features (amongst others),как правило предоставляют две основные функции (среди прочих),ru,en
+breakpoints in the source code,точки останова в исходном коде,ru,en
+variable inspection,переменная проверка,ru,en
+Breakpoints are 'traps' that are placed in the code,Точки останова - это ловушки которые помещаются в код,ru,en
+if the execution path through the code,если путь выполнения через код,ru,en
+encounters one of these breakpoints,сталкивается с одной из этих точек останова,ru,en
+then execution is halted or suspended,затем исполнение прекращается или приостанавливается,ru,en
+Note that execution is not stopped as when a program is stopped all memory resident information such as variables is lost,Обратите внимание что выполнение не останавливается так как при остановке программы вся информация о резидентной памяти такая как переменные теряется,ru,en
+While the program is suspended the contents of variables can be inspected and sometimes altered,Пока программа приостановлена содержимое переменных может быть проверено и иногда изменено,ru,en
+which depends on the ability of the debugger,который зависит от способности отладчика,ru,en
+Generally the source code can not be changed although some environments do support this,Как правило исходный код не может быть изменен хотя некоторые среды поддерживают это,ru,en
+When ready the execution of the source code can be resumed,Когда все будет готово выполнение исходного кода может быть возобновлено,ru,en
+Numerous breakpoints can be placed in the code and numerous suspensions through the breakpoints may occur,Многочисленные точки останова могут быть помещены в код и могут возникать многочисленные приостановки через точки останова.,ru,en
+The purpose of the debugger is to make sure that the execution with the breakpoints and suspensions is functionally identical to execution without breakpoints.,Цель отладчика - убедиться что выполнение с точками останова и приостановками функционально идентично выполнению без точек останова.,ru,en
+Variable Inspections,Переменные проверки,ru,en
+Implementing,Внедрение,ru,en
+involves,включает в себя,ru,en
+supervisory,надзорный,ru,en
+Implementing breakpoints involves a supervisory level of code which administers the execution of the code under development,Реализация точек останова включает в себя надзорный уровень кода который управляет выполнением разрабатываемого кода,ru,en
+Such a level of code for Python development within FreeCAD is not presently available,Такой уровень кода для разработки на Python во FreeCAD в настоящее время недоступен.,ru,en
+As a weak substitute the following code is an option.,В качестве слабой замены следующий код является вариантом.,ru,en
+Instead of suspending the execution the code will halt execution completely by dividing a number by zero.,Вместо того чтобы приостанавливать выполнение код полностью остановит выполнение разделив число на ноль.,ru,en
+This really is a very weak option compared to a proper debugger breakpoint also this option is only of use when used alongside the routine shown in the next section 'Variable Inspection'.,Это действительно очень слабая опция по сравнению с правильной точкой останова отладчика также эта опция полезна только при использовании вместе с процедурой показанной в следующем разделе Проверка переменных.,ru,en
+Traceback,Проследить,ru,en
+When a program fails during execution,Когда программа терпит неудачу во время выполнения,ru,en
+Inspection,осмотр,ru,en
+Variable Inspection,Переменная проверка,ru,en
+The second main feature of a debugger is to examine and possibly alter the contents of variables. Once again until the FreeCAD debugger for Python is ready we have to depend on work-arounds.,Второй основной особенностью отладчика является проверка и возможно изменение содержимого переменных. Еще раз пока отладчик FreeCAD для Python не будет готов мы должны зависеть от обходных путей.,ru,en
+Usage,использование,ru,en
+Console Traceback,Консоль Traceback,ru,en
+retrieve the Tcp position,получить позицию Tcp,ru,en
+removes the module from the sys.path. The entry point for imports will therefore always be FreeCAD. eg.: from FreeCAD.Module.submodule import function,удаляет модуль из системного пути Поэтому точкой входа для импорта всегда будет FreeCAD. например: из функции импорта FreeCAD.Module.submodule,ru,en
+some often used shortcuts (for lazy people like me ;-),некоторые часто используемые ярлыки (для ленивых людей как я ;-),ru,en
+some often used shortcuts (for lazy people like me ;-),некоторые часто используемые ярлыки (для ленивых людей как я ;-),ru,en
+# some often used shortcuts (for lazy people like me ;-),,ru,en
+some often used shortcuts (for lazy people like me,некоторые часто используемые ярлыки (для ленивых людей как я,ru,en
+Seems the python standard libs are not installed bailing out!,Кажется стандартные библиотеки Python не установлены выручая!,ru,en
+init every application by importing Init.py,инициализировать каждое приложение импортировав Init.py,ru,en
+Extract format and print information about Python stack traces,Извлечение форматирование и печать информации о трассировках стека Python,ru,en
+Their functions can be accessed in python by,Их функции могут быть доступны в Python,ru,en
+see,видеть,ru,en
+In this chapter the namespace of Base App and Main modules are introduced these 3 modules make a complete program without GUI,В этой главе представлено пространство имен модулей Base App и Main эти 3 модуля составляют полную программу без графического интерфейса,ru,en
+Their functions can be accessed in python by,Их функции могут быть доступны в Python,ru,en
+I see that FreeCAD offers an interactive Python console and also a way to load Python scripts. Is there an IDE that would permit me to edit longer scripts and run them without the hassle of having to load run edit elsewhere and repeat again? If not should I use an external IDE (I'm familiar with JetBrain's PyCharm and Enthought's Canopy) and then copy-paste into the FreeCAD console?,Я вижу что FreeCAD предлагает интерактивную консоль Python а также способ загрузки скриптов Python. Есть ли IDE которая позволила бы мне редактировать более длинные скрипты и запускать их без необходимости загружать запускать редактировать в другом месте и повторять снова? Если нет следует ли мне использовать внешнюю IDE (я знаком с JetBrains PyCharm и Enthoughts Canopy) а затем скопировать и вставить в консоль FreeCAD?,ru,en
+This chapter focused on the property framework and DocumentObject in App namespace,В этой главе основное внимание уделено структуре свойств и DocumentObject в пространстве имен приложения.,ru,en
+as they are most interesting to module developer,как они наиболее интересны разработчику модуля,ru,en
+The classes in Base namespace are not frequently used,Классы в пространстве имен Base используются не часто,ru,en
+but understanding,но понимание,ru,en
+register type and create instance from name,зарегистрировать тип и создать экземпляр из имени,ru,en
+see code snippets in later section,см. фрагменты кода в следующем разделе,ru,en
+using macro function to make type system and link to Python,использование макрофункции для создания системы типов и ссылки на Python,ru,en
+see detailed analysis in the later section,подробный анализ см. в следующем разделе,ru,en
+base class for all FreeCAD exceptios derived from BaseClass,базовый класс для всех исключений FreeCAD полученных из BaseClass,ru,en
+Very important and frequently included header file,Очень важный и часто включаемый заголовочный файл,ru,en
+If you want to present a special hostname in error messages etc,Если вы хотите указать специальное имя хоста в сообщениях об ошибках и т. Д.,ru,en
+define this. Otherwise the return value of gethostname(),определить это. В противном случае возвращаемое значение gethostname (),ru,en
+Sorry onjuist wachtwoord,Извините неверный пароль 6af189cb0c5b30f4fd5ddd83e0ac72e7,ru,nl
+This is a template class to provide wrapper classes for geometric classes like Base,Это шаблонный класс для предоставления классов-оболочек для геометрических классов таких как Base,ru,en
+Since the class inherits from Py,Поскольку класс наследует от Py,ru,en
+Geometry related classes without,Классы связанные с геометрией без,ru,en
+GUI menubar and toolbar,GUI меню и панель инструментов,ru,en
+Example of extending FemSolverObject in python,Пример расширения FemSolverObject в python,ru,en
+Procedure for extending FeaturePythonT object,Процедура расширения объекта FeaturePythonT,ru,en
+setup and diagnose the sketch,настроить и диагностировать эскиз,ru,en
+get the actual lists of the externals,получить фактические списки внешних,ru,en
+setup and diagnose the sketch,настроить и диагностировать эскиз,ru,en
+get the actual lists of the externals,получить фактические списки внешних,ru,en
+addExternal,addExternal,ru,en
+Failed to build face from,Не удалось построить лицо от,ru,en
+Datum feature type is not yet supported as external geometry for a sketch,Базовый тип объекта еще не поддерживается в качестве внешней геометрии для эскиза,ru,en
+catch,поймать,ru,en
+This includes a regular solve including full geometry update except when an error,Это включает в себя регулярное решение включая полное обновление геометрии за исключением случаев ошибки,ru,en
+ensues,вытекает,ru,en
+Solving the sketch failed,Решить эскиз не удалось,ru,en
+was not declared in this scope,не был объявлен в этой области,ru,en
+Datum feature type is not yet supported as external geometry for a sketch,Базовый тип объекта еще не поддерживается в качестве внешней геометрии для эскиза,ru,en
+Selected external reference plane must be normal to sketch plane,Выбранная внешняя базовая плоскость должна быть нормальной к плоскости эскиза,ru,en
+Non-planar faces are not yet supported for external geometry of sketches,Неплоские грани еще не поддерживаются для внешней геометрии эскизов,ru,en
+Not yet supported geometry for external geometry,Еще не поддерживается геометрия для внешней геометрии,ru,en
+If you meant to add a submodule use,Если вы хотели добавить субмодуль используйте,ru,en
+If you added this path by mistake you can remove it from the,Если вы добавили этот путь по ошибке вы можете удалить его из,ru,en
+‘rendom’ was not declared in this scope; did you mean,«Случайный» не был объявлен в этой области; вы имеете в виду,ru,en
+‘rendom’ was not declared in this scope,«Случайный» не был объявлен в этой области,ru,en
+did you mean,вы имеете в виду,ru,en
+expected primary-expression before ‘return’,ожидаемое первичное выражение перед возвращением,ru,en
+was not declared in this scope,не был объявлен в этой области,ru,en
+error: too few arguments to function ‘char*,ошибка: слишком мало аргументов для функции ‘char — 1.pdf Android cmake-3.16.0-Linux-x86_64 Designing
+ Ingemering java_error_in_PYCHARM_6910.log Programming PycharmProjects snap Видео Документы Загрузки Изображения Музыка Общедоступные Рабочий стол Шаблоны,ru,en
+PROPERTY,СВОЙСТВО,ru,en
+Measure,Мера,ru,en
+load dependent module,модуль зависящий от нагрузки,ru,en
+pages,страницы,ru,en
+Report view,Просмотр отчета,ru,en
+Report view,Просмотр отчета,ru,en
+Report view,Просмотр отчета,ru,en
+Certain properties of this panel like color of the text and whether to display it automatically on warnings or errors can be configured in the,Некоторые свойства этой панели такие как цвет текста и автоматическое отображение его в предупреждениях или ошибках можно настроить в,ru,en
+The report view displays messages from the internal FreeCAD Console class,Представление отчета отображает сообщения из внутреннего класса консоли FreeCAD,ru,en
+print any sort of informative message that doesn't imply any misbehavior; for example print the coordinates of points the result of a distance calculation the number of vertices in a shape etc. By default in black color.,распечатать любое информационное сообщение которое не подразумевает какого-либо неправильного поведения; например распечатать координаты точек результат вычисления расстояния количество вершин в фигуре и т. д. По умолчанию черным цветом.,ru,en
+print any sort of informative message,распечатать любое информационное сообщение,ru,en
+that doesn't imply any misbehavio,это не подразумевает какого-либо неправильного поведения,ru,en
+for example print the coordinates of points,например распечатать координаты точек,ru,en
+the result of a distance calculation the number of vertices in a shape etc. By default in black color,результат вычисления расстояния количества вершин в фигуре и т. д. По умолчанию черным цветом,ru,en
+Submitting patches,Отправка патчей,ru,en
+Add Features to FreeCAD or a Workbench,Добавить функции в FreeCAD или Workbench,ru,en
+Gui Command,Gui Command,ru,en
+Complete Workbench,Полный верстак,ru,en
+Naming,Именование,ru,en
+The GuiCommand is named in a standard way: ModuleName_CommandName e.g. "Base_Open" this is the Open Gui Command in the Base system,GuiCommand назван стандартным образом: например Base_Open - это команда Open Gui в базовой системе,ru,en
+The GuiCommand in a certain module is named with the module name in front e.g.,GuiCommand в определенном модуле назван с именем модуля перед например,ru,en
+Help page,Страница справки,ru,en
+Every GuiCommand has to have a help page,Каждый GuiCommand должен иметь страницу помощи,ru,en
+Draft ShapeString,Проект ShapeString,ru,en
+Adding an application module to FreeCAD,Добавление модуля приложения в FreeCAD,ru,en
+Continuous Integration,Непрерывная интеграция,ru,en
+Branding or how to give FreeCAD a unique look,Брендинг или как придать FreeCAD уникальный вид,ru,en
+Artwork we made for FreeCAD that you can freely reuse,Иллюстрации которые мы сделали для FreeCAD которые вы можете свободно использовать,ru,en
+Google Summer of Code get involved via Google's student support program,Google Summer of Code подключайтесь к программе поддержки студентов Googles,ru,en
+Fine-tuning shows different options and parameter switches that can overcome problems,Тонкая настройка показывает различные опции и переключатели параметров которые могут преодолеть проблемы,ru,en
+Translating an external workbench,Перевод внешнего верстака,ru,en
+Module developer's guide,Руководство для разработчиков модулей,ru,en
+Internals,Внутренности,ru,en
+OpenCascade is a software development platform for 3D surface and solid modeling CAD data exchange and visualization mostly in the form of C++ libraries.,OpenCascade - это платформа для разработки программного обеспечения для трехмерного моделирования поверхностей и твердых тел обмена данными САПР и визуализации в основном в форме библиотек C.,ru,en
+Sketcher solver,Sketcher Solver,ru,en
+Where would this code go if implemented?,Куда пойдет этот код если он будет реализован?,ru,en
+Roadmap,Дорожная карта,ru,en
+This is the FreeCAD Sketcher development project. It follows the rules of the Getting things done process. The projects are collected in the Development roadmap.,Это проект разработки FreeCAD Sketcher. Он следует правилам процесса «Приступая к работе». Проекты собраны в дорожной карте развития.,ru,en
+Shorctut for Transform,Shorctut для трансформации,ru,en
+Constraint Symbols and Numbers In The 3D View - Allow Users To Specify a Size,Ограничительные символы и цифры в трехмерном представлении - позволяют пользователям указывать размер,ru,en
+Crash on setting certain dimensions in a sketch,Сбой при установке определенных размеров в эскизе,ru,en
+lengths in reference mode length are treated redundant,длины в эталонном режиме длины считаются избыточными,ru,en
+wrong default value for grid size,неверное значение по умолчанию для размера сетки,ru,en
+stdset,сайт d417779c06d67b45f16785426e87bf85,ru,fy
+unit,единица измерения,ru,en
+Added ticket number to thread title,Добавлен номер билета в заголовок темы,ru,en
+Add View of Sketch with colours and dimensions,Добавить вид эскиза с цветами и размерами,ru,en
+Autofill information in SVG page template,Автозаполнение информации в шаблоне страницы SVG,ru,en
+Unable to login to Tracker,Невозможно войти в трекер,ru,en
+I see a keithsloan52 account and the email is set to a sourceforge address. If that needs to be updated can you PM me the correct address?,Я вижу учетную запись keithsloan52 и в электронном письме указан адрес sourceforge. Если это нужно обновить вы можете написать мне правильный адрес в личку?,ru,en
+Unable,Неспособный,ru,en
