@@ -16,12 +16,17 @@ delimiter2 = sys.argv.index(';',delimiter1+1)
 delimiter3 = -3
 if len(sys.argv[delimiter3-1]) >= 32:
 	delimiter3 = delimiter3 -1
-# print(delimiter2) 
+
+def clear_text(text):
+	text = re.sub('\s\w{20}\w*\s',' ', text)
+	return text
+
 text_out = ' '.join(sys.argv[delimiter2+1:delimiter3])
 print(text_in + ';')
-print(text_out)
 lang_in = sys.argv[delimiter1+1]
 lang_out = sys.argv[-1]
+text_out = clear_text(text_out)
+print(text_out)
 cache_fill_list = [text_in,text_out,lang_in,lang_out]
 
 def update_fill(fill_name,translet_list):
