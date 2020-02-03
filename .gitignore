@@ -1,2 +1,5 @@
 $ cat .gitignore
-* .csv
+*.csv
+
+# ignor idea
+.idea/
